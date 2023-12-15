@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:link{color: #404040;}
+a:visited{color: #404040;}
+a:hover{color:#FF667F;}
+a:active{color: #404040;}
+
+header a{
+    z-index: 30;
+}
+header{
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    
+}
+header img{
+    height: 45px;
+    margin-top: 18px;
+}
+nav{
+    height: 50px; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 1100px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+}
+nav ul li a{
+    display: block;
+    width: 183px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+}
+
+section {
+    width: 100%;
+    height: 8104px;
+
+}
+
+.img {
+    width: 100%;
+    height: 835px;
+    background-image: url(img/sub05_img1.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.box1 {
+    width: 100%;
+    height: 7268px;
+    background-image: url(img/sub05_img2.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+.box1 h1{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 1080px;
+    left: 410px;
+}
+.box1 h2{
+    width: 1100px;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 1323px;
+    left: 410px;
+}
+
+.box1 h3{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 1590px;
+    left: 307px;
+}
+
+.box1 h4{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 1672px;
+    left: 307px;
+}
+
+.box1 h5{
+    width: 1100px;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 2108px;
+    left: 515px;
+}
+
+.box1 h6{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 2245px;
+    left: 515px;
+}
+
+
+
+.box2 h1{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 2966px;
+    left: 307px;
+}
+
+.box2 h2{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 3048px;
+    left: 307px;
+}
+
+.box2 h3{
+    width: 1100px;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 3738px;
+    left: 515px;
+}
+
+.box2 h4{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 3815px;
+    left: 515px;
+}
+
+.box2 h5{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 4536px;
+    left: 307px;
+}
+
+.box2 h6{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 4661px;
+    left: 307px;
+}
+
+.box3 h1{
+    width: 1100px;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 5543px;
+    left: 515px;
+}
+
+.box3 h2{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 5665px;
+    left: 515px;
+}
+
+.box3 h3{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 6386px;
+    left: 307px;
+}
+
+.box3 h4{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 6511px;
+    left: 307px;
+}
+
+.box3 h5{
+    width: 1100px;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 7390px;
+    left: 515px;
+}
+
+.box3 h6{
+    width: 1100px;
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border-spacing: 20px;
+    position: absolute;
+    top: 7512px;
+    left: 515px;
+}
+
+footer{
+    width: 100%;
+    height: 80px; 
+    background-color: #151515;
+    color: #404040;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+}
+footer div{
+    padding-top: 29px;
+}
